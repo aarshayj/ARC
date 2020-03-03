@@ -1,1 +1,41 @@
-task_id,object_priors,goal_directedness_priors,counting_priors,basic_geometry_priors
+task_id,object_priors,goal_directedness_priors,counting_priors,basic_geometry_priors,in_out_shape,notes
+3428a4f5.json,"1,5,8",,4.0,1,2,xor
+eb281b96.json,5,,3.0,1,3,"replicate pattern, mirror image twice"
+6150a2bd.json,5,,,1,1,flip twice along 2 different axis
+28bf18c6.json,5,,3.0,,1,find pattern and repeat twice
+97999447.json,"1,8",,3.0,4,1,adding a new color always
+694f12f3.json,"2,3,8",,2.0,"3,4",1,draw boxes within boxes
+ba26e723.json,"1,8",,"1,3",4,1,add pink lines every 3 column
+8d510a79.json,"1,7",,,4,1,horizontal line but no symmetry
+b9b7f026.json,"2,3,8",,,,2,output shape independent of input
+d631b094.json,5,,"1,3",,2,"detect color, count and make line"
+95990924.json,"2,5,7,8",,,1,1,repeat pattern around box
+d364b489.json,"5,7",,,1,1,pattern around box
+d0f5fe59.json,"1,5",,1,4,2,count and make diagonal line of same size
+cbded52d.json,"2,3,7,8",,"1,3","1,3,4",1,complex
+53b68214.json,"5,7",,"1,3",4,3,repeat pattern; output length depends on input
+794b24be.json,"5,8",,1,4,1,make pattern based on count
+e98196ab.json,5,,4,"1,4",2,concatenate patterns along line
+1b60fb0c.json,"5,7,8",,,"1,4",1,"symmetry for subset, complex"
+1f876c06.json,"1,7",1,,4,1,draw diagonal line between points
+6e19193c.json,"5,7",1,3,4,1,complex
+c0f76784.json,"2,3,8",,"1,2",3,1,fill box with color depending on size
+b548a754.json,"2,3,7",1,,"3,4",1,extend shape to a point
+913fb3ed.json,"2,3,7,8",,,3,1,fill area around a point with color
+88a10436.json,"5,7",,,4,1,repeat pattern with center on another point
+5117e062.json,"5,7,8",,,3,1,filter shape containing a blue dot
+63613498.json,"5,8",,1,,1,"complex, recolor one object, can't figure out"
+b230c067.json,"5,8",,"1,2",,1,color based on size
+c909285e.json,3,,1,3,2,filter a unique color box
+a87f7484.json,5,,"1,2",,2,pick pattern of max number of colors cells
+ea786f4a.json,"3,7",1,3,"1,4",1,fill diagonals with black color
+623ea044.json,"1,7",1,,4,1,repeat color diagonally
+22168020.json,"5,7",,,,1,"complex, fill a section of a pattern"
+f2829549.json,,,,,2,complex
+99b1bc43.json,"5,8",,4,1,2,xor
+1a07d186.json,"1,7",,,4,1,bring same color point to line
+d4f3cd78.json,"3,7,8",1,,3,1,fill box and spill out linear
+67a3c6ac.json,5,,,1,1,single flip
+f1cefba8.json,"3,5,7",1,,"1,3,4",1,complex
+50846271.json,"1,5,7,8",,,4,1,complete plus shape with different color
+e8dc4411.json,"5,7,8",1,3,,1,extend pattern based on direction
